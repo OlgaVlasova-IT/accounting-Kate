@@ -1,0 +1,13 @@
+.checkMark{
+
+    background-color: green;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    border: 2px solid;
+}
