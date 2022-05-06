@@ -1,3 +1,10 @@
 .third-of-width {
     width: 150%
 }
+
+@media all and (max-width:800px){
+
+    .third-of-width {
+        width: 90%
+    }
+   }
