@@ -1,0 +1,19 @@
+.tab-size{
+    /* width: 100%;
+    display: flex;
+    justify-content: center; */
+    padding-right: 150px;
+   
+  }
+
+
+@media all and (max-width:800px){
+    .tab-size{
+        /* width: 100%;
+        display: flex;
+        justify-content: center; */
+        padding-right: 10px;
+       
+      }
+}
+
