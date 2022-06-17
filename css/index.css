@@ -196,6 +196,9 @@ border-bottom-width: 2px;
   border-bottom-color: #C449C2; 
  
 }
+.carousel-height{
+  height: 300px;
+}
 
 .card-text {
   font-family: 'Arsenal', sans-serif;
