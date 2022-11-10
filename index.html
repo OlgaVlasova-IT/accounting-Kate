@@ -12,6 +12,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Marcellus&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -19,25 +22,29 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navBar">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">KGP group</a>
+              <a class="navbar-brand px-5" href="#" style="color: #E4A86D; font-family: 'Marcellus', serif; border: 2px solid #212529 ">KGP group</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class=" collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <ul class="navbar-nav py-1 my-1 " style=" font-family: 'Marcellus', serif;" >
+                  
+                  <li class="nav-item mx-3 nav-link-hover"   >
+                    <a class="nav-link fw-bold " aria-current="page" href="index.html" style="color: #E4A86D" >Home</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="services.html">Service</a>
+                  <li class="nav-item mx-3 nav-link-hover"  >
+                    <a class="nav-link fw-bold " href="services.html" style="color: #E4A86D">Service</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                  <li class="nav-item mx-3 nav-link-hover ">
+                    <a class="nav-link  fw-bold" href="#" style="color: #E4A86D">About us</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html" >Contact</a>
+                  <li class="nav-item  mx-3 nav-link-hover ">
+                    <a class="nav-link fw-bold" href="contact.html" style="color: #E4A86D" >Contact</a>
+                  </li>
+                  <li class="nav-item mx-3"  style="border: 2px solid #212529" >
+                    <a class="nav-link " aria-current="page" href="" style="color: #212529" >Invisible</a>
                   </li>
                 </ul>
               </div>
@@ -46,14 +53,14 @@
           <!-- <div class="d-flex justify-content-center">
           <h2>Service</h2>
           </div> -->
-          <div class="position-relative overflow-hidden p-3 p-md-5  text-left  bg-pic"> 
-            <div class="col-md-5 p-lg-5 mx-auto my-5">
-              <h1 class="display-4 fw-normal">Tax Solutions</h1>
+          <div class="position-relative overflow-hidden p-3 p-md-5   bg-pic"> 
+            <div class="col p-lg-5 mx-auto px-5 text-left">
+              <h1 class="display-4 fw-normal my-3" id="headingTax"  >Tax <span class="font-color-custom"  style=" font-family: 'Marcellus', serif;" > Solutions</span></h1>
               <!-- <p class="lead fw-normal">Accounting & advisory support for entrepreneurs and small businesses.</p> -->
               <!-- <p class="lead fw-normal par-position">Personal-Sole proprietorship-Corporations-Payroll-Adjustment-GST</p> -->
-              <p class="lead fw-normal par-position">Optimize and strategize for highest refund possible</p>
+              <p class="lead fw-normal par-position mx-auto px-3  my-3"  style=" font-family: 'Marcellus', serif;  "  >Optimize and strategize for the highest refund possible</p>
               
-              <a class="btn btn-outline-secondary" href="services.html">See more</a>
+              <!-- <a class="btn btn-light btn-class-hover" href="services.html" >See more</a> -->
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -62,44 +69,44 @@
 
           <div class="container my-3 " id="featured-3">
             <div class="px-2 mb-4 bg-light rounded-3">
-              <div class="container-fluid ">
-                <h3 class="display-5 fw-bold fs-4 text">Our Services</h3>
-                <p class="col-md-8 fs-5"> KGP-group serves clients Canada-wide. Having 5 years experience we provide a full range of accounting services from basic slip returns to rental properties, sole proprietorships, small corporate businesses, and GST returns.</p>
+              <div class="container-fluid " >
+                <h2 class="display-5 fw-bold fs-4 text py-4 text-center font-color-custom "  style=" font-family: 'Marcellus', serif; ">Our Services</h3>
+                <p class="  fs-5 px-5 text text-center"> KGP-group serves clients Canada-wide. Having 5 years experience we provide a full range of accounting services from basic slip returns to rental properties, sole proprietorships, small corporate businesses, and GST returns.</p>
                 <!-- <a class="btn btn-outline-secondary" href="#table">See more</a> -->
                 <div class="container" id="featured-3">
                   <!-- <h2 class="pb-2 border-bottom">Services</h2> -->
                   <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 inline-photo show-on-scroll">
-                    <div class="feature col">
-                      <div class="feature-icon bg-primary bg-gradient icon-cont px-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-calendar3" viewBox="0 0 16 16">
+                    <div class="feature col py-5  show-on-scroll ">
+                      <div class="feature-icon bg-gradient icon-cont px-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-calendar3" viewBox="0 0 16 16">
                           <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
                           <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                         </svg>
                       </div>
-                      <h2>Personal tax return</h2>
+                      <h2  style=" font-family: 'Marcellus', serif; color:#E4A86D ">Personal tax return</h2>
                       <p>When we prepare your personal tax returns, you get full advantage of tax credits</p>
                       <a class="btn btn-outline-secondary" href="services.html#nav-contact">See more</a>
                     </div>
-                    <div class="feature col">
-                      <div class="feature-icon bg-primary bg-gradient icon-cont">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-journals" viewBox="0 0 16 16">
+                    <div class="feature col py-5  show-on-scroll ">
+                      <div class="feature-icon bg-gradient icon-cont">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-journals" viewBox="0 0 16 16">
                           <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"/>
                           <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"/>
                         </svg>
                       </div>
-                      <h2>Sole proprietorship</h2>
+                      <h2 style=" font-family: 'Marcellus', serif; color:#E4A86D ">Sole proprietorship</h2>
                       <p>Paragraph of text beneath the heading to explain the heading. </p>
                       <a class="btn btn-outline-secondary" href="services.html#nav-profile">See more</a>
                     </div>
-                    <div class="feature col">
-                      <div class="feature-icon bg-primary bg-gradient icon-cont">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-journal-check" viewBox="0 0 16 16">
+                    <div class="feature col py-5 show-on-scroll ">
+                      <div class="feature-icon bg-gradient icon-cont">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-journal-check" viewBox="0 0 16 16">
                           <path fill-rule="evenodd" d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                           <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
                           <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
                         </svg>
                       </div>
-                      <h2>Corporations</h2>
+                      <h2 style=" font-family: 'Marcellus', serif; color:#E4A86D ">Corporations</h2>
                       <p>Paragraph of text beneath the heading to explain the heading. </p>
                       <a class="btn btn-outline-secondary" href="services.html#nav-home">See more</a>
                     </div>
@@ -109,7 +116,13 @@
               </div>
             </div>
           </div>
-          <div class="container px-4 my-3 " >
+
+          
+
+
+
+
+          <div class="container px-4 my-3 show-on-scroll" >
             <h1>Testimonials</h1>
           <div id="myCarousel" class="carousel  carousel-dark slide" data-bs-ride="carousel">
       
@@ -208,6 +221,8 @@
         
           <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
         <script src="js/index.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+
         <!-- <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
     </body>
 </html>

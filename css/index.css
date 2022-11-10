@@ -199,9 +199,24 @@ border-bottom-width: 2px;
 .carousel-height{
   height: 300px;
 }
+.hoverclass :hover {
+  background-color: #E4A86D;
+  color:whitesmoke;
+}
+.btn-class-hover :hover {
+  background-color: #E4A86D
+}
 
 .card-text {
   font-family: 'Arsenal', sans-serif;
+}
+.font-color-custom {
+  color:#E4A86D
+}
+.nav-link-hover:active,
+.nav-link-hover :hover{
+ border-bottom: 1px solid #E4A86D;
+
 }
 @media all and (max-width:800px){
 

@@ -12,6 +12,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/services.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Marcellus&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -22,36 +25,40 @@
         </symbol>
       </svg>
 
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navBar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">KGP group</a>
+          <a class="navbar-brand px-5" href="#" style="color: #E4A86D; font-family: 'Marcellus', serif; border: 2px solid #212529 ">KGP group</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class=" collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <ul class="navbar-nav py-1 my-1 " style=" font-family: 'Marcellus', serif;" >
+              
+              <li class="nav-item mx-3 nav-link-hover"   >
+                <a class="nav-link fw-bold " aria-current="page" href="index.html" style="color: #E4A86D" >Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+              <li class="nav-item mx-3 nav-link-hover"  >
+                <a class="nav-link fw-bold " href="services.html" style="color: #E4A86D">Service</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+              <li class="nav-item mx-3 nav-link-hover ">
+                <a class="nav-link  fw-bold" href="#" style="color: #E4A86D">About us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html" >Contact</a>
+              <li class="nav-item  mx-3 nav-link-hover ">
+                <a class="nav-link fw-bold" href="contact.html" style="color: #E4A86D" >Contact</a>
+              </li>
+              <li class="nav-item mx-3"  style="border: 2px solid #212529" >
+                <a class="nav-link " aria-current="page" href="" style="color: #212529" >Invisible</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <section class="py-3 text-center container">
+      <section class="py-3 my-3 bg-light text-center container">
         <div class="row py-lg-3">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Services</h1>
-            <p class="lead text-muted">Full range of accounting services from basic slip returns to rental properties, sole proprietorships, small corporate businesses, and GST returns.</p>
+            <h1 class="fw-light font-color-custom" style=" font-family: 'Marcellus', serif; color:#E4A86D">Services</h1>
+            <p class="lead fs-normal">Full range of accounting services from basic slip returns to rental properties, sole proprietorships, small corporate businesses, and GST returns.</p>
           </div>
         </div>
       </section>
@@ -61,23 +68,22 @@
         <!-- <h1 class="text-center"> Option 1</h1> -->
         <div class=" d-flex col-12 ">
           
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-4">
-            <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action active fw-light " id="list-home-list" data-bs-toggle="list" href="#list-1" role="tab" aria-controls="list-1">Personal Tax Return</a>
-              <a class="list-group-item list-group-item-action fw-light" id="list-profile-list" data-bs-toggle="list" href="#list-2" role="tab" aria-controls="list-2">Monthly bookkeeping</a>
-              <a class="list-group-item list-group-item-action fw-light" id="list-messages-list" data-bs-toggle="list" href="#list-3" role="tab" aria-controls="list-3">GST return</a>
-              <a class="list-group-item list-group-item-action fw-light" id="list-settings-list" data-bs-toggle="list" href="#list-4" role="tab" aria-controls="list-4">Payrolls</a>
-              <a class="list-group-item list-group-item-action fw-light" id="list-settings-list" data-bs-toggle="list" href="#list-5" role="tab" aria-controls="list-5">Audit Support</a>
+        <div class="row d-flex justify-content-center align-items-center " >
+          <div class="col-4 hoverclass"  >
+            <div class="list-group hoverclass "   id="list-tab" role="tablist" >
+              <a class="list-group-item list-group-item-action active  fw-normal hoverclass " id="list-home-list" data-bs-toggle="list" href="#list-1" role="tab" aria-controls="list-1">Personal Tax Return</a>
+              <a class="list-group-item list-group-item-action fw-normal hoverclass  " id="list-profile-list" data-bs-toggle="list" href="#list-2" role="tab" aria-controls="list-2">Monthly bookkeeping</a>
+              <a class="list-group-item list-group-item-action fw-normal hoverclass  " id="list-settings-list" data-bs-toggle="list" href="#list-4" role="tab" aria-controls="list-4">Payrolls</a>
+              <a class="list-group-item list-group-item-action fw-normal hoverclass " id="list-settings-list" data-bs-toggle="list" href="#list-5" role="tab" aria-controls="list-5">Audit Support</a>
             </div>
           </div>
           <div class="col-8">
             <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active lead text-muted" id="list-1" role="tabpanel" aria-labelledby="list-home-list">Filing your personal income tax returns can be confusing and overwhelming, and this is understandable. By engaging our trusted personal income tax service, you will be maximizing your tax savings without the hassles of researching tax planning strategies and the various deductions and credits applicable to your situation.</div>
-              <div class="tab-pane fade lead text-muted" id="list-2" role="tabpanel" aria-labelledby="list-profile-list">This is for you if you are ready to take the bookkeeping and accounting off your plate, want clear financial insights into how the business is doing, and want the peace of mind that your business finances are taken care of.</div>
-              <div class="tab-pane fade lead text-muted" id="list-3" role="tabpanel" aria-labelledby="list-messages-list">If you need to collect and submit sales taxes, we can assist with ensuring you are charging and collecting the right amount of sales tax. We will file your PST and GST/HST returns, and ensure you are claiming all the input tax credits you are entitled to</div>
-              <div class="tab-pane fade lead text-muted" id="list-4" role="tabpanel" aria-labelledby="list-settings-list">We can connect you with a third-party payroll provider, or work with your current vendor. We oversee the payroll process, ensuring all remittances are taken care of.</div>
-              <div class="tab-pane fade lead text-muted" id="list-5" role="tabpanel" aria-labelledby="list-settings-list">An audit is nothing to be scared of! We can take care of it hassle free with our streamlined process. We will explain the audit and collect the necessary documents, organize them and submit it. We will even speak to CRA on your behalf and keep track of the progress until the audit is approved.</div>
+              <div class="tab-pane fade show active lead " id="list-1" role="tabpanel" aria-labelledby="list-home-list">Filing your personal income tax returns can be confusing and overwhelming, and this is understandable. By engaging our trusted personal income tax service, you will be maximizing your tax savings without the hassles of researching tax planning strategies and the various deductions and credits applicable to your situation.</div>
+              <div class="tab-pane fade lead " id="list-2" role="tabpanel" aria-labelledby="list-profile-list">This is for you if you are ready to take the bookkeeping and accounting off your plate, want clear financial insights into how the business is doing, and want the peace of mind that your business finances are taken care of.</div>
+              <div class="tab-pane fade lead " id="list-3" role="tabpanel" aria-labelledby="list-messages-list">If you need to collect and submit sales taxes, we can assist with ensuring you are charging and collecting the right amount of sales tax. We will file your PST and GST/HST returns, and ensure you are claiming all the input tax credits you are entitled to</div>
+              <div class="tab-pane fade lead " id="list-4" role="tabpanel" aria-labelledby="list-settings-list">We can connect you with a third-party payroll provider, or work with your current vendor. We oversee the payroll process, ensuring all remittances are taken care of.</div>
+              <div class="tab-pane fade lead " id="list-5" role="tabpanel" aria-labelledby="list-settings-list">An audit is nothing to be scared of! We can take care of it hassle free with our streamlined process. We will explain the audit and collect the necessary documents, organize them and submit it. We will even speak to CRA on your behalf and keep track of the progress until the audit is approved.</div>
             </div>
           </div>
         </div>
@@ -242,8 +248,8 @@
            
         </section> -->
 
- <div class="d-flex justify-content-center">
-   <h1 class="fw-light">Packages</h1>
+ <div class="d-flex justify-content-center bg-light">
+   <h1 class="fw-light" style=" font-family: 'Marcellus', serif; color:#E4A86D" >Packages</h1>
  </div>
         <section class="container d-flex justify-content-center align-items-center col-12 my-5" >
           <div class="accordion col-12" id="accordionExample">

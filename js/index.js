@@ -38,3 +38,6 @@ function isElementInViewport(el) {
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
   );
 }
+
+gsap.from("#headingTax", { x: -400 , duration: 2,})
+gsap.from(".nav-link", { x: 400 , duration: 2, stagger: 0.2})
