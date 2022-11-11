@@ -27,11 +27,10 @@
     border:#E4A86D
     }
 
-  .nav-link-hover:active,
-  .nav-link-hover :hover{
-   border-bottom: 1px solid #E4A86D;
-  
-  }
+    .nav-link-hover:hover{
+      border-bottom: 1px solid #E4A86D;
+     
+     }
   .font-color-custom {
     color:#E4A86D
   }
