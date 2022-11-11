@@ -14,6 +14,18 @@
     border:#E4A86D
   }
  
+  .btnhoverclass.active {
+    background-color: #E4A86D;
+    color:whitesmoke;
+    border:#E4A86D}
+
+    .accordion-button:focus
+   {
+    box-shadow: none;
+   background-color: #E4A86D;
+    color:whitesmoke;
+    border:#E4A86D
+    }
 
   .nav-link-hover:active,
   .nav-link-hover :hover{
