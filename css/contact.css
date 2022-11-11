@@ -2,6 +2,15 @@
     width: 150%
 }
 
+.nav-link-hover:active,
+  .nav-link-hover :hover{
+   border-bottom: 1px solid #E4A86D;
+  
+  }
+  .font-color-custom {
+    color:#E4A86D
+  }
+
 @media all and (max-width:800px){
 
     .third-of-width {
