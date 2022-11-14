@@ -3,6 +3,10 @@
     background-color: green;
 }
 
+
+.font-family-custom {
+  font-family: 'Red Hat Display', sans-serif;
+}
 .par-card{
 
   width: 100%;
@@ -203,9 +207,18 @@ border-bottom-width: 2px;
   background-color: #E4A86D;
   color:whitesmoke;
 }
+
 .btn-class-hover :hover {
-  background-color: #E4A86D
+  background-color: #E4A86D;
+  color: whitesmoke;
+  border-color: #E4A86D;
 }
+
+.btn-class-hover.active {
+  background-color: #E4A86D;
+  color: whitesmoke;
+}
+
 
 .card-text {
   font-family: 'Arsenal', sans-serif;

@@ -39,5 +39,5 @@ function isElementInViewport(el) {
   );
 }
 
-gsap.from("#headingTax", { x: -400 , duration: 2,})
+gsap.from("#headingTax", { x: -400 , duration: 2})
 gsap.from(".nav-link", { x: 400 , duration: 2, stagger: 0.2})
