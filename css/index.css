@@ -61,22 +61,7 @@ body{
   font-size: 40px;
 }
 
-.bg-dark{
-    background-color: #B9CCED;
-}
-/* .bg-light {
-   background-color: #E8E8E8;
-}
-.bg-my-light{
-  background-color:#F6E5F5;
-} */
-.bg-my-light2{
-  background-color:#F6E7E6;
-}
 
-.bg-my-light3{
-  background-color:#F6E5F5;
-}
 .no-border {
   border: none;
 }
@@ -123,15 +108,6 @@ body{
 
 
 
-
-
-.font-color {
-   color: #F38BA0;
-}
-.font-color-black{
-  color: black
-}
-
 hover-color:hover{
 
   font-color:whitesmoke;
@@ -150,17 +126,14 @@ hover-color:hover{
 .border-radius{
   border-radius: 100px;
 }
-{
- border: 2px solid #F38BA0;
-}
-/* .st0{fill:#F05454;} */
+
+
 .st0{fill:#F05454;}
 .textInput {
     width: 320px;
     height: 35px;
     border-radius: 4px;
     border:none;
-    /* border: 2px solid #C449C2; */
   }
 
 
@@ -176,29 +149,24 @@ hover-color:hover{
   }
 
   .bg-lavender {
-    background-color: #lavender;
+    background-color: lavender;
   }
 
   .border-color {
-    border-style: solid;
+border-style: solid;
 border-width: 2px;
-    border-color: #C449C2; 
-    
-    /* #8675A9 */
+border-color: #C449C2; 
 }
-
 
 .border-bottom-color1 {
-  border-bottom-style: solid;
+border-bottom-style: solid;
 border-bottom-width: 2px;
-  border-bottom-color: #F38BA0; 
- 
+border-bottom-color: #F38BA0; 
 }
 .border-bottom-color {
-  border-bottom-style: solid;
+border-bottom-style: solid;
 border-bottom-width: 2px;
-  border-bottom-color: #C449C2; 
- 
+border-bottom-color: #C449C2; 
 }
 .carousel-height{
   height: 300px;
@@ -208,6 +176,7 @@ border-bottom-width: 2px;
   color:whitesmoke;
 }
 
+.btn-class-hover :focus,
 .btn-class-hover :hover {
   background-color: #E4A86D;
   color: whitesmoke;

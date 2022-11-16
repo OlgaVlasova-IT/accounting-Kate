@@ -13,6 +13,9 @@
     color:whitesmoke;
     border:#E4A86D
   }
+  .font-family-custom {
+    font-family: 'Red Hat Display', sans-serif;
+  }
  
   .btnhoverclass.active {
     background-color: #E4A86D;

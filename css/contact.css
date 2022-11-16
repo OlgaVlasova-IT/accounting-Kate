@@ -9,7 +9,17 @@
   .font-color-custom {
     color:#E4A86D
   }
+  .font-family-custom {
+    font-family: 'Red Hat Display', sans-serif;
+  }
 
+  .btn-class-hover :hover {
+    background-color: #E4A86D;
+    color: whitesmoke;
+    border-color: #E4A86D;
+  }
+  
+ 
 @media all and (max-width:800px){
 
     .third-of-width {
