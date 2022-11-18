@@ -41,3 +41,19 @@ function isElementInViewport(el) {
 
 gsap.from("#headingTax", { x: -400 , duration: 2})
 gsap.from(".nav-link", { x: 400 , duration: 2, stagger: 0.2})
+
+const btn= document.querySelector("#showRequestForm")
+
+
+const showRequestForm= ()=> {
+  const x = document.getElementById('requestForm');
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    btn.textContent="X"
+  } else {
+    x.style.display = "none";
+    btn.textContent="Request a quote"
+  }
+ }
+
+ btn.addEventListener("click", showRequestForm)

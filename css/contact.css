@@ -12,7 +12,8 @@
   .font-family-custom {
     font-family: 'Red Hat Display', sans-serif;
   }
-
+  .btn-class-hover :focus,
+  .btn-class-hover :focus-visible,
   .btn-class-hover :hover {
     background-color: #E4A86D;
     color: whitesmoke;
