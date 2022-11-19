@@ -44,9 +44,9 @@
                   <li class="nav-item  mx-3 ">
                     <a class="nav-link fw-bold nav-link-hover" href="contact.html" style="color: #E4A86D" >Contact</a>
                   </li>
-                  <!-- <li class="nav-item  mx-3 ">
-                    <a class="nav-link fw-bold nav-link-hover  " id="showRequestForm"   style="color: #E4A86D; border: 2px solid #E4A86D; border-radius: 5px;" >Request a quote</a>
-                  </li> -->
+                  <li class="nav-item  mx-3 ">
+                    <a class="nav-link fw-bold nav-link-hover  " id="showRequestForm"  data-bs-toggle="modal" data-bs-target="#modal"  style="color: #E4A86D; border: 2px solid #E4A86D; border-radius: 5px;" >Request a quote</a>
+                  </li>
                   <li class="nav-item mx-3"   >
                     <a class="nav-link visually-hidden " aria-current="page" href="" style="color: #212529" >Invisible</a>
                   </li>
@@ -54,33 +54,45 @@
               </div>
             </div>
           </nav>
-          <div id="bg">
-          <!-- <div class="sticky-top" id="requestForm" style="display: none;" >
-          
-            <div class="d-flex flex-column justify-content-center align-items-center container" >
-              <h1> Request a quote</h1>
-            <form class="d-flex flex-column justify-content-center"
-            action="https://formspree.io/f/xknypdew"
-             method="POST"
-           >
-                   <div class="mb-3 third-of-width font-family-custom">
-                     <label for="exampleFormControlInput1" class="form-label">Email <span style="color: red">*</span></label>
-                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
-                     <label for="exampleFormControlInput1" class="form-label" >Name <span style="color: red">*</span></label>
-                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
-                   </div>
-                   <div class="mb-3  third-of-width">
-                     <label for="exampleFormControlTextarea1" class="form-label">Your message<span style="color: red">*</span></label>
-                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required placeholder="Enter your message"></textarea>
-                     <button class="btn btn-outline-secondary my-3 btn-class-hover" type="submit" id="submitForm">Send</button>
-                     
-                   </div>
-                   <button class="btn btn-outline-secondary my-3 btn-class-hover" type="submit" id="closeForm" style=" background-color:red; color:white">Close</button>
-                   </form>
-          </div>
-        </div>
-          -->
 
+          <div class="modal fade" id="modal"  tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Request a quote</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="requestForm">
+                
+                  <form class="d-flex flex-column justify-content-center"
+                    action="https://formspree.io/f/mkneegln"
+                     method="POST"
+                   >
+                           <div class="mb-3 third-of-width font-family-custom">
+                             <label for="exampleFormControlInput1" class="form-label">Email <span style="color: red">*</span></label>
+                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
+                             <label for="exampleFormControlInput1" class="form-label" >Name <span style="color: red">*</span></label>
+                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
+                           </div>
+                           <div class="mb-3  third-of-width">
+                             <label for="exampleFormControlTextarea1" class="form-label">Your message<span style="color: red">*</span></label>
+                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required placeholder="Enter your message"></textarea>
+                             <!-- <button class="btn btn-outline-secondary my-3 btn-class-hover" type="submit" id="submitForm">Send</button> -->
+                          </div>
+
+                          <div class="modal-footer">
+                            <button  class="btn btn-primary my-2"  type="submit"> Send request</button>
+                           </div>
+              
+                           </form>
+                          
+               
+                </div>
+                
+              </div>
+            </div>
+          </div>
+             
           <div class="position-relative overflow-hidden px-3 p-md-5   bg-pic"> 
             <div class="col p-lg-5 mx-auto text-left">
               <h1 class="display-4 fw-normal my-3" id="headingTax"  >Tax <span class="font-color-custom"  style=" font-family: 'Marcellus', serif;" > Solutions</span></h1>
@@ -218,7 +230,8 @@
             </button>
           </div>
         </div>
-      </div>
+ 
+                                  </form>
     
 <footer class="text-muted py-3 bg-dark">
   <div class="container">

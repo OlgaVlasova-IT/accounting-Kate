@@ -178,16 +178,16 @@ border-bottom-color: #C449C2;
 #requestForm{
   display: none;
   background-color: #E4A86D;
-  position: absolute;
+  /* position: absolute;
   top: 6.0em;
-  right: 40em;
+  right: 40em; */
   min-width: 3em;
   min-height: 3em;
   width: 120hv;
   height: auto;
   cursor: pointer;
   border: solid 2px  #BA8F6B;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,17 +226,17 @@ border-bottom-color: #C449C2;
 
 }
 @media all and (max-width:800px){
-
+/* 
   #requestForm{
     
     position: absolute;
     top: 15.0em;
-    right: 1em;}
- #showRequestForm{
+    right: 1em;} */
+ /* #showRequestForm{
  
 display: none;
 
-    }
+    } */
 }
 
 
