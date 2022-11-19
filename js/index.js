@@ -42,18 +42,22 @@ function isElementInViewport(el) {
 gsap.from("#headingTax", { x: -400 , duration: 2})
 gsap.from(".nav-link", { x: 400 , duration: 2, stagger: 0.2})
 
-const btn= document.querySelector("#showRequestForm")
-
+const btnShow= document.querySelector("#showRequestForm")
+const btnClose=document.querySelector("#closeForm")
+const bg = document.querySelector("#bg")
 
 const showRequestForm= ()=> {
   const x = document.getElementById('requestForm');
   if (x.style.display === "none") {
     x.style.display = "block";
-    btn.textContent="X"
+    // btn.textContent="X"
+   bg.style.backgroundColor = "#A9A9A9";
   } else {
     x.style.display = "none";
-    btn.textContent="Request a quote"
+    // btn.textContent="Request a quote"
+    bg.style.backgroundColor = "transparent";
   }
  }
 
- btn.addEventListener("click", showRequestForm)
+ btnShow.addEventListener("click", showRequestForm)
+ btnClose.addEventListener("click", showRequestForm)
