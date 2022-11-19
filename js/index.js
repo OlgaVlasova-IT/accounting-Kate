@@ -51,11 +51,11 @@ const showRequestForm= ()=> {
   if (x.style.display === "none") {
     x.style.display = "block";
     // btn.textContent="X"
-   bg.style.backgroundColor = "#A9A9A9";
+  //  bg.style.backgroundColor = "#A9A9A9";
   } else {
     x.style.display = "none";
     // btn.textContent="Request a quote"
-    bg.style.backgroundColor = "transparent";
+    // bg.style.backgroundColor = "transparent";
   }
  }
 
