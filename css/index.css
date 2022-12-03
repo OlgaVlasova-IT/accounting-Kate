@@ -177,7 +177,7 @@ border-bottom-color: #C449C2;
 }
 #requestForm{
   display: none;
-  background-color: #E4A86D;
+ 
   /* position: absolute;
   top: 6.0em;
   right: 40em; */
@@ -186,7 +186,7 @@ border-bottom-color: #C449C2;
   width: 120hv;
   height: auto;
   cursor: pointer;
-  border: solid 2px  #BA8F6B;
+
   /* border-radius: 15px; */
   display: flex;
   flex-direction: column;
