@@ -1,17 +1,9 @@
-.checkMark{
-
-    background-color: green;
-}
 
 
 .font-family-custom {
   font-family: 'Red Hat Display', sans-serif;
 }
-.par-card{
 
-  width: 100%;
-  height: 225px;
-}
 .center {
     display: flex;
     justify-content: center;
@@ -21,8 +13,8 @@
     border: 2px solid;
 }
 .bg-pic{
-    background-image: url("/images/accounting3.jpg");
-    background-position: center center; 
+    background-image: url("/images/accounting7.jpg");
+    background-position: center top; 
     background-repeat:no-repeat;
     background-size: cover;
 
@@ -37,14 +29,6 @@
   }
 
 
-.rounded-corners-bottom {
-    border-radius: 0 0 25px 25px;
-}
-.rounded-corners-top {
-    border-radius:  25px 25px 0 0;
-
-}
-
 body{
   font-family: 'Arsenal', sans-serif; 
 }
@@ -52,14 +36,7 @@ body{
 .rounded-corners {
     border-radius:  25px 25px 25px 25px;
 }
-#text{
- font-family: 'Courgette', cursive; 
- font-size: 100px;
-}
 
-#hi {
-  font-size: 40px;
-}
 
 
 .no-border {
@@ -108,21 +85,6 @@ body{
 
 
 
-hover-color:hover{
-
-  font-color:whitesmoke;
-}
-.red-color {
-
-    color: #F05454;
-}
-.btn-bg {
-  background-color: lavender;
-}
-.btn-hover:hover {
-     background-color: #F38BA0;
-}
-
 .border-radius{
   border-radius: 100px;
 }
@@ -147,27 +109,7 @@ hover-color:hover{
 
     width:50%
   }
-
-  .bg-lavender {
-    background-color: lavender;
-  }
-
-  .border-color {
-border-style: solid;
-border-width: 2px;
-border-color: #C449C2; 
-}
-
-.border-bottom-color1 {
-border-bottom-style: solid;
-border-bottom-width: 2px;
-border-bottom-color: #F38BA0; 
-}
-.border-bottom-color {
-border-bottom-style: solid;
-border-bottom-width: 2px;
-border-bottom-color: #C449C2; 
-}
+ 
 .carousel-height{
   height: 300px;
 }
@@ -197,6 +139,17 @@ border-bottom-color: #C449C2;
   z-index: 1000 ;
 }
 
+.btn-primary {
+  color: #717981;
+  background-color: white;
+  border-color: whitesmoke; /*set the color you want here*/
+  border-radius: 5px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #E4A86D;
+  border-color:  #E4A86D ; /*set the color you want here*/
+}
 .bg{
   background-color: transparent ;
   z-index: 101;
@@ -226,25 +179,20 @@ border-bottom-color: #C449C2;
 
 }
 @media all and (max-width:800px){
-/* 
-  #requestForm{
-    
-    position: absolute;
-    top: 15.0em;
-    right: 1em;} */
- /* #showRequestForm{
- 
-display: none;
+  
+  .bg-pic{
+    background-image: url("/images/accounting7.jpg");
+    background-position: center center; 
+    background-repeat:no-repeat;
+    background-size: cover;
 
-    } */
+}
 }
 
 
 @media all and (max-width:400px){
 
   
-   .char, .char1, .char2{
-   font-size: 60px;
-  }
+
   }
 
