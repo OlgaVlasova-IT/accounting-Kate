@@ -12,14 +12,17 @@
   .font-family-custom {
     font-family: 'Red Hat Display', sans-serif;
   }
-  .btn-class-hover :focus,
-  .btn-class-hover :focus-visible,
-  .btn-class-hover :hover {
-    background-color: #E4A86D;
-    color: whitesmoke;
-    border-color: #E4A86D;
+  .btn {
+    color: #717981;
+    background-color: white;
+    border-color: #717981; /*set the color you want here*/
+    border-radius: 5px;
   }
-  
+  .btn:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #E4A86D;
+    border-color:  #E4A86D ; /*set the color you want here*/
+  }
  
 @media all and (max-width:800px){
 
