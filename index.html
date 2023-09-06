@@ -67,14 +67,15 @@
                   <form class="d-flex flex-column justify-content-center"
                     action="https://formspree.io/f/mkneegln"
                      method="POST"
+                     id="formQuote"
                    >
-                           <div class="mb-3 third-of-width ">
+                           <div class="mb-3  ">
                              <label style=" font-family: 'Marcellus', serif; color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1">Email <span style="color: red">*</span></label>
                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
                              <label style=" font-family: 'Marcellus', serif; color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1" >Name <span style="color: red">*</span></label>
                              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
                            </div>
-                           <div class="mb-3  third-of-width">
+                           <div class="mb-3 ">
                              <label style=" font-family: 'Marcellus', serif; color:#E4A86D" for="exampleFormControlTextarea1" class="form-label fs-6">Your message<span style="color: red">*</span></label>
                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required placeholder="Enter your message"></textarea>
                              <!-- <button class="btn btn-outline-secondary my-3 btn-class-hover" type="submit" id="submitForm">Send</button> -->
@@ -165,29 +166,63 @@
             </div>
           </div>
 
-          
+          <!--Book Appointment Today-->
+          <div  id="featured-3 my-0 show-on-scroll">
+            <div class=" mb-4  rounded-3">
+              <div class="container-fluid px-5 " >
+                <h1 class="display-5 fw-bold fs-2 text py-4 text-center font-color-custom py-1"  style=" font-family: 'Marcellus', serif; ">Contact Us</h1>
+                <h2 class="text-center my-1"style=" font-family: 'Marcellus', serif"> Book Your Appointment today</h2>
+                <p class=" text text-center my-1 "> We are here to help. Leave us a phone number and we'll call you back</p>
+                <!-- <a class="btn btn-outline-secondary" href="#table">See more</a> -->
+                <div class="d-flex flex-direction-column justify-content-center">
+                <form class="d-flex flex-column justify-content-center third-of-width"
+                    action="https://formspree.io/f/moqowkyk"
+                     method="POST"
+                     id="formCallBack"
+                   >
+                           <div class="mb-3 ">
+                 
+                             <label style=" font-family: 'Marcellus', serif; color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1" >Name <span style="color: red">*</span></label>
+                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
+                             <label style=" font-family: 'Marcellus', serif; color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1">Phone <span style="color: red">*</span></label>
+                             <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone number" name="tel" required>
+                           </div>
+                          
+
+                          <div class="modal-footer">
+                            <button  class="btn btn-primary my-2" style  type="submit" id="btnCallBack"> Call Me Back</button>
+                           </div>
+              
+                           </form>
+                          </div>
+      
+              </div>
+            </div>
+          </div>
+         
+          <!--Book Appointment Today />-->
 
 
-
-
-          <div class="show-on-scroll px-5 py-5" >
+          <!--Testimonials-->
+       
+          <div class="show-on-scroll bg-light px-5 py-5" >
             <div class="py-3  text-center container">
             <h1 class="fs-2 fw-bold font-color-custom"  style=" font-family: 'Marcellus', serif; ">Testimonials</h1>
             </div>
-          <div id="myCarousel" class="carousel  carousel-dark slide" data-bs-ride="carousel" >
+          <div id="myCarousel" class="carousel  carousel-dark slide bg-light" data-bs-ride="carousel" >
       
-            <div class="carousel-indicators carousel-dark">
+            <div class="carousel-indicators bg-light carousel-dark">
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
               <!-- <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class="" aria-current="true"></button> -->
             </div>
-            <div class="carousel-inner carousel-height  " >
-              <div class="carousel-item carousel-height " > 
-                <svg class="bd-placeholder-img " width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#FFFFFF"></rect></svg>
+            <div class="carousel-inner carousel-height bg-light " >
+              <div class="carousel-item bg-light carousel-height " > 
+                <svg class="bd-placeholder-img bg-light " width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F8F9FA"></rect></svg>
         
-                <div class="container ">
-                  <div class="carousel-caption py-5 my-3">
+                <div class="container bg-light ">
+                  <div class="carousel-caption bg-light py-5 my-3">
                     
                     <p class="py-3 font-color-black font-family-custom"> She was very prompt with her email responses and answered all my questions during our zoom chat. I highly recommend working with her!</p>
                  
@@ -197,40 +232,40 @@
               </div>
 
               <div class="carousel-item  carousel-height">
-                <svg class="bd-placeholder-img" width="100%" height="200%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#FFFFFF"></rect></svg>
+                <svg class="bd-placeholder-img " width="100%" height="200%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F8F9FA"></rect></svg>
         
-                <div class="container">
-                  <div class="carousel-caption py-5 my-3 my-1">
+                <div class="container bg-light"> 
+                  <div class="carousel-caption bg-light py-5 my-3 my-1">
                   
-                    <p class="py-3  font-color-black font-family-custom">I love that we were well taken care of and all of our questions were answered in a language that WE understood. Very pleased with KGP Tax Solutions.</p>
+                    <p class="py-3 font-color-black font-family-custom">I love that we were well taken care of and all of our questions were answered in a language that WE understood. Very pleased with KGP Tax Solutions.</p>
                     <cite class="font-color-black font-family-custom"> Brianna, Vancouver</cite>
                   </div>
                 </div>
               </div>
        
-              <div class="carousel-item active carousel-height" style="background-color: #FFFFFF;">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#FFFFFF"></rect></svg>
+              <div class="carousel-item active carousel-height bg-light" style="background-color: #FFFFFF;">
+                <svg class="bd-placeholder-img svg-ligh " width="100%" height ="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F8F9FA"></rect></svg>
         
-                <div class="container">
-                  <div class="carousel-caption py-5 my-3">
+                <div class="container bg-light">
+                  <div class="carousel-caption bg-light py-5 my-3">
                     <p class="py-3  font-color-black font-family-custom">She is very professional, knowledgeable and always happy and able to answer all of my questions. Getting my taxes filed through her is a very quick and painless process.</p>
                     <cite class="font-color-black font-family-custom"> Josh, Calgary</cite>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev carousel-dark " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev carousel-dark bg-light " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon carousel-dark" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+              <span class="visually-hidden bg-light">Previous</span>
             </button>
-            <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <button class="carousel-control-next carousel-dark bg-light" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
               <span class="carousel-control-next-icon carousel-dark" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+              <span class="visually-hidden bg-light">Next</span>
             </button>
           </div>
         </div>
  
-                                  </form>
+                               
     
 <footer class="text-muted py-3 bg-dark">
   <div class="container">

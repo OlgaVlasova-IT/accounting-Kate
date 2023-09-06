@@ -42,9 +42,18 @@ function isElementInViewport(el) {
 gsap.from("#headingTax", { x: -400 , duration: 2})
 gsap.from(".nav-link", { x: 400 , duration: 2, stagger: 0.2})
 
-const btn = document.querySelector("#sendRequest");
+const btnSendRequest = document.querySelector("#sendRequest");
 
-btn.addEventListener("click", function () {
+btnSendRequest.addEventListener("click", function () {
+  window.onbeforeunload = () => {
+    for (const form of document.getElementsByTagName("form")) {
+      form.reset();
+    }
+  };
+});
+
+const btnCallBack = document.querySelector("#btnCallBack");
+btnCallBack.addEventListener("click", function () {
   window.onbeforeunload = () => {
     for (const form of document.getElementsByTagName("form")) {
       form.reset();

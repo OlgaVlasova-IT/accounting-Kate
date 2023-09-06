@@ -19,7 +19,9 @@
     background-size: cover;
 
 }
-
+.svg-light {
+ fill:rgb(248,249,250) 
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -178,8 +180,15 @@ body{
  border-bottom: 1px solid #E4A86D;
 
 }
+.third-of-width {
+
+  width: 40%
+}
 @media all and (max-width:800px){
+  .third-of-width {
   
+  width: 100%
+}
   .bg-pic{
     background-image: url("/images/accounting7.jpg");
     background-position: center center; 
