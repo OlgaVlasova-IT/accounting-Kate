@@ -196,6 +196,10 @@ body{
     background-size: cover;
 
 }
+
+.nav-link {
+  text-align: center;
+}
 }
 
 
