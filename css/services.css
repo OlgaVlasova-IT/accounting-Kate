@@ -45,5 +45,8 @@
         padding-right: 10px;
        
       }
+      .nav-link {
+        text-align: center;
+      }
 }
 
