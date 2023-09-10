@@ -1,5 +1,12 @@
+.bg-contactus{
+  background-image: url("/images/contact.jpg");
+  background-position: center center; 
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
 .third-of-width {
-    width: 150%
+    width: 50%
 }
 
 .nav-link-hover:hover{
@@ -23,6 +30,40 @@
     background-color: #E4A86D;
     border-color:  #E4A86D ; /*set the color you want here*/
   }
+
+  .accordion-button:hover 
+  {
+   box-shadow: none;
+  background-color: #E4A86D;
+   color:whitesmoke;
+   border:#E4A86D
+   }
+
+   .accordion-button :active 
+  {
+   box-shadow: none;
+  background-color: #E4A86D;
+   color:whitesmoke;
+   border:#E4A86D
+   }
+  
+
+   .accordion-button{
+    background-color:whitesmoke;
+    color:#E4A86D
+   }
+   .font-color-custom 
+   {
+    color:#E4A86D
+  }
+
+   .hoverclass :focus-visible,
+   .hoverclass.active 
+    {
+     background-color: #E4A86D;
+     color:whitesmoke;
+     border:#E4A86D
+   }
  
 @media all and (max-width:800px){
 
